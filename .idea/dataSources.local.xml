@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails wildlifetracker: development" uuid="164f2264-2206-4835-8388-16e92b4ad26c">
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+      <schema-pattern>wildlifetracker_development.pg_catalog wildlifetracker_development.public</schema-pattern>
+      <default-schemas>wildlifetracker_development.pg_catalog wildlifetracker_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails wildlifetracker: development" uuid="35eb70c7-ad27-4c57-a0a9-0efdc346e1d5">
+      <user-name>postgres</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+      <schema-pattern>wildlifetracker_development.pg_catalog wildlifetracker_development.public</schema-pattern>
+      <default-schemas>wildlifetracker_development.pg_catalog wildlifetracker_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails wildlifetracker: test" uuid="3eea9728-43da-4cff-ab96-77674561a0a8">
+      <first-sync>true</first-sync>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+ <!--render a table @sightings array-->
+<!--actions will go to show, destroy, edit, new-->
+
+
+<div id="actions">
+
+  <%= link_to 'New Sighting', {:controller =>'sightings', :action => 'new' }, {id: 'new-link', style: 'color: teal;'} %>
+</div>
+ <table>
+  <tr>
+    <th>Date</th>
+    <th>Longitude</th>
+    <th>Latitude</th>
+    <th>Region</th>
+  </tr>
+   <% if @sightings.length > 0 %>
+
+    <% @sightings.each do |sighting| %>
+
+  <tr>
+    <td><%= sighting.date %> </td>
+    <td><%= sighting.longitude %> </td>
+    <td><%= sighting.latitude %> </td>
+    <td><%= sighting.region %> </td>
+    <td> <%= link_to 'sightings#delete'%></td>
+  </tr>
+   <% end
+       else %>
+       <tr><th>No sightings found yet.</th></tr>
+       <% end %>
+ </table>

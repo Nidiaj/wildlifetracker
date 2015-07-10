@@ -1,0 +1,12 @@
+development:
+  adapter: postgresql
+  database: wildlifetracker_development
+  user: postgres
+  password: password
+
+test:
+  adapter: postgresql
+  database: wildlifetracker_test
+  user: postgres
+  password: password
+

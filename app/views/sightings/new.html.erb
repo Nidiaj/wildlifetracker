@@ -1,0 +1,38 @@
+<!--
+* Get a form object for our model object.
+!-->
+<% form_for @sighting do |f| %>
+
+<table>
+  <tr>
+    <td> <%= f.label :region %></td>
+    <td><%= f.select(:region_id) do %>
+          <% @regions.each do |region| %>
+              <%= content_tag(:option, region.name, value: region.id) %>
+          <% end %>
+      <% end %>
+           </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<% end %>
